@@ -10,14 +10,14 @@ import streamlit as st
 status = {
     "Customer Churn": {"ready": True, "link": "/Customer-Churn"},
     "Customer Segmentation": {"ready": True, "link": "/Customer-Segmentation"},
-    "NPS & VOC": {"ready": False, "link": "/NPS-VOC-Analysis"},
+    "NPS & VOC": {"ready": True, "link": "/NPS-VOC-Analysis"},
     "Geo-Spatial Analysis": {"ready": True, "link": "/Geo-Spatial-Analysis"},
     "Sentiment Analysis": {"ready": True, "link": "/Sentiment-Analysis"},
-    "Upsell & Cross-Sell": {"ready": False, "link": "/Upsell-Cross-sell-Analysis"},
-    "Journey Mapping": {"ready": False, "link": "/Customer-Journey-Mapping"},
-    "Dynamic Pricing": {"ready": False, "link": "/Dynamic-Pricing-Optimization"},
-    "Marketing Campaigns": {"ready": False, "link": "/Personalized-Marketing-Campaigns"},
-    "Demand Forecasting": {"ready": False, "link": "/Demand-Forecasting"},
+    "Upsell & Cross-Sell": {"ready": True, "link": "/Upsell-Cross-sell-Analysis"},
+    "Journey Mapping": {"ready": True, "link": "/Customer-Journey-Mapping"},
+    "Dynamic Pricing": {"ready": True, "link": "/Dynamic-Pricing-Optimization"},
+    "Marketing Campaigns": {"ready": True, "link": "/Personalized-Marketing-Campaigns"},
+    "Demand Forecasting": {"ready": True, "link": "/Demand-Forecasting"},
 
 }
 
